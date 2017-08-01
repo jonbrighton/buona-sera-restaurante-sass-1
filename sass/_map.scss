@@ -4,9 +4,9 @@
   display:flex;
 }
 .time {
-  background-image: url(../images/hours.png);
+  background-image: url(../images/wall-background-mobile2.png);
   background-repeat: no-repeat;
-  min-height: 800px;
+  min-height: 500px;
   min-width: 100%;
 }
 #map-canvas {
@@ -24,10 +24,7 @@ display: block;
 
 }
 .time {
-  background-image: url(../images/hours.png);
-  background-repeat: no-repeat;
-  min-height: 800px;
-  min-width: 100%;
+min-height: 0;
 }
 
 
@@ -121,7 +118,7 @@ display: block;
   z-index: -1;
 }
 .address {
-  background: url(../images/address1.jpg);
+  background: url(../images/address2.jpg);
   background-repeat: no-repeat;
   width: 340px;
   height: 400px;

@@ -56,7 +56,7 @@ a {
 .background-menu {
   background: url(../images/map-background-mobile.jpg);
   background-size: cover;
-  min-height: 600px;
+  min-height: 500px;
   margin: 0 auto; }
 
 .trans {
@@ -69,6 +69,7 @@ a {
   background-repeat: no-repeat; }
 
 .chalkboard h2 {
+  padding-top: 40%;
   font-size: 5em;
   font-family: 'Alex Brush', cursive;
   color: #eff0f2; }
@@ -101,6 +102,45 @@ a {
 .group-menu {
   background: #e0e1e2; }
 
+.special-menu {
+  background: url(../images/underlines.png);
+  background-position: 50%;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 2em;
+  margin-top: 6em; }
+
+.special-menu:focus,
+.set-menu:focus,
+.main-menu:focus {
+  outline: 0 !important;
+  font-weight: lighter; }
+
+button {
+  font-family: 'Ropa Sans', sans-serif;
+  font-weight: lighter; }
+
+.main-menu {
+  background: url(../images/underlines.png);
+  background-position: 50%;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 2em; }
+
+main-menu:hover {
+  color: blue;
+  cursor: pointer; }
+
+.set-menu {
+  background: url(../images/underlines.png);
+  background-position: 50%;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 2em; }
+
 @media screen and (min-width: 48em) {
   .special-menu {
     background: url(../images/underlines.png);
@@ -109,7 +149,8 @@ a {
     height: 50px;
     color: white;
     font-size: 2em;
-    margin-left: 2em; }
+    margin-left: 2em;
+    margin-bottom: 1em; }
   .special-menu:focus,
   .set-menu:focus,
   .main-menu:focus {
@@ -138,10 +179,11 @@ a {
     background: url(../images/map-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 400px;
     display: flex; }
   .board {
-    padding-bottom: 6em; }
+    padding-top: 2em;
+    padding-bottom: 2em; }
   .chalkboard {
     margin: 0 auto; }
   .chalkboard h2 {
@@ -173,9 +215,9 @@ a {
   display: flex; }
 
 .time {
-  background-image: url(../images/hours.png);
+  background-image: url(../images/wall-background-mobile2.png);
   background-repeat: no-repeat;
-  min-height: 800px;
+  min-height: 500px;
   min-width: 100%; }
 
 #map-canvas {
@@ -187,10 +229,7 @@ a {
   .cover {
     min-height: 600px; }
   .time {
-    background-image: url(../images/hours.png);
-    background-repeat: no-repeat;
-    min-height: 800px;
-    min-width: 100%; }
+    min-height: 0; }
   #map-canvas {
     min-height: 800px;
     max-width: 1500px;
@@ -262,7 +301,7 @@ a {
     height: 280px;
     z-index: -1; }
   .address {
-    background: url(../images/address1.jpg);
+    background: url(../images/address2.jpg);
     background-repeat: no-repeat;
     width: 340px;
     height: 400px; }
@@ -280,14 +319,15 @@ a {
   background-position: 50%;
   display: flex;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  border-top: 5px solid #CFB53B;
+  border-bottom: 5px solid #CFB53B; }
 
 .us {
   margin-top: 10%;
   align-items: center;
-  background-color: rgba(240, 240, 240, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   min-height: 300px;
-  border: 3px solid #CFB53B;
   margin-left: .1em;
   margin-right: .1em; }
 
