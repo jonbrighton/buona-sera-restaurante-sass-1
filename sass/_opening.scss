@@ -1,0 +1,31 @@
+
+.logo img {
+  min-width: 100px;
+  min-height: 50%;
+  max-width: 600px;
+  padding-top: 5em;
+}
+.background {
+  background: url(../images/bread-background-mobile.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+@media screen and (min-width:48em){
+  .background {
+    background-image: url(../images/bread-background2.jpg);
+    background-size: cover;
+    min-height: 100vh;
+  }
+#opening {
+  position: relative;
+}
+.logo img {
+  position: absolute;
+  min-width: 55px;
+  left: 8em;
+
+}
+
+} // end media query

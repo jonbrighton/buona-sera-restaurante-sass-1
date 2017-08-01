@@ -1,0 +1,140 @@
+
+.cover {
+
+  display:flex;
+}
+.time {
+  background-image: url(../images/hours.png);
+  background-repeat: no-repeat;
+  min-height: 800px;
+  min-width: 100%;
+}
+#map-canvas {
+height: 400px;
+max-width: 100%;
+display: block;
+}
+.contact {
+
+}
+@media screen and (min-width:48em){
+.cover {
+  min-height: 600px;
+  // display: flex;
+
+}
+.time {
+  background-image: url(../images/hours.png);
+  background-repeat: no-repeat;
+  min-height: 800px;
+  min-width: 100%;
+}
+
+
+#map-canvas {
+min-height: 800px;
+max-width: 1500px;
+display: block;
+}
+.backDoor
+{
+  background-image: url(../images/wall-background.png);
+  background-size: cover;
+  position:relative;
+  width:1280px;
+  height:800px;
+ left: 0;
+  margin: 0 auto;
+  /*margin-top:50px;*/
+}
+
+.door
+{
+  background-image:url(../images/door1.jpg);
+  background-size: cover;
+  position:absolute;
+  top:0px;
+  left:-20px;
+  width:400px;
+  height:800px;
+
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 1s ease-in-out;
+}
+/*.door h2, .door h3 {
+  padding-top: 38%;
+}*/
+.door-sign {
+  text-align: center;
+  width: 180px;
+  height: 136px;
+  background-image: url(../images/frame.png);
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  margin-top: 30%;
+  margin-left: 18%;
+  border: 1px solid black;
+  box-shadow: 2px, 2px, 2px, black;
+  cursor: pointer;
+  color: #D1CFCF;
+  line-height: 1.5;
+
+}
+.door-sign h2 {
+  font-family: 'Alex Brush', cursive;
+  font-size: 26px;
+  color: #D1CFCF;
+  padding-top: 8%;
+}
+.door-sign h2:hover {
+
+  color: white;
+}
+.doorOpen
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+#map {
+  position:relative;
+}
+.container1 {
+  transition: 3s;
+
+}
+.container2 {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 1200px;
+  height: 800px;
+  z-index: -2;
+}
+.container3 {
+  position: absolute;
+  top:150px;
+  right:160px;
+  width: 180px;
+  height: 280px;
+  z-index: -1;
+}
+.address {
+  background: url(../images/address1.jpg);
+  background-repeat: no-repeat;
+  width: 340px;
+  height: 400px;
+
+
+}
+.fadeout {
+  opacity: 0;
+  transition: 4s;
+}
+.fadein {
+  opacity: 1;
+
+}
+
+}

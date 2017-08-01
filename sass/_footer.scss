@@ -1,0 +1,17 @@
+.social-media {
+  background:url(../images/footer-background-mobile.jpg);
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+@media screen and (min-width:48em) {
+.social-media {
+  background:url(../images/footer-background.jpg);
+  min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+}

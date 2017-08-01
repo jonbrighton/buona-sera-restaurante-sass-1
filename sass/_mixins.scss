@@ -1,0 +1,11 @@
+@mixin center-block($width) {
+  margin:0 auto;
+  width: $width;
+}
+@mixin border-radius() {
+  border-radius: 12px;
+  border: solid 1px;
+}
+@mixin shadow($x, $y, $blur, $color) {
+  box-shadow: $x $y $blur $color;
+}

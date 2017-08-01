@@ -1,0 +1,153 @@
+
+.background-menu {
+  background: url(../images/map-background-mobile.jpg);
+  background-size: cover;
+  min-height: 600px;
+  margin: 0 auto;
+
+}
+.trans {
+  background:url("../images/asset.png");
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+.trans:hover {
+  background:url("../images/asset2.png");
+  background-repeat: no-repeat;
+}
+.chalkboard h2 {
+  // padding-top: 25%;
+  font-size: 5em;
+  font-family: 'Alex Brush', cursive;
+  color:#eff0f2;
+
+}
+.board h2 {
+  color: #D1CFCF;
+}
+.menu-wrapper {
+  position: relative;
+  overflow:hidden;
+  min-height:1550px;
+}
+.menu-container {
+  position:absolute;
+  top:0;
+  left:-100vw;
+  width: 300vw;
+  min-height: 100vh;
+  display:flex;
+
+
+  // left: 100vh;
+}
+
+
+.specials, .mains, .group-menu {
+  width:100vw;
+}
+.specials {
+
+  background: #e0e1e2;
+}
+.mains {
+
+  background: white;
+}
+.group-menu {
+
+  background: #e0e1e2;
+}
+@media screen and (min-width:48em){
+  .special-menu {
+    background: url(../images/underlines.png);
+    background-position: left;
+    width: 220px;
+    height: 50px;
+    color:white;
+    font-size: 2em;
+    margin-left: 2em;
+  }
+  .special-menu:focus,
+  .set-menu:focus,
+  .main-menu:focus {
+     outline:0 !important;
+
+     font-weight: lighter;
+  }
+  button {
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: lighter;
+  }
+  .main-menu {
+    background: url(../images/underlines.png);
+    background-position: 50%;
+    width: 220px;
+    height: 50px;
+    color:white;
+    font-size: 2em;
+    margin-left: 2em;
+  }
+  .set-menu {
+    background: url(../images/underlines.png);
+    background-position: right;
+    width: 220px;
+    height: 50px;
+    color:white;
+    font-size: 2em;
+    margin-left: 2em;
+  }
+.background-menu {
+  background: url(../images/map-background.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  display: flex;
+  // background-attachment: fixed;
+}
+.board {
+  padding-bottom: 6em;
+}
+.chalkboard {
+margin: 0 auto;
+
+}
+.chalkboard h2{
+  font-weight: lighter;
+  margin: 0 auto;
+  padding-top: 10%;
+  font-size: 10em;
+
+}
+.mains {
+
+}
+h2,
+h3,
+p {
+  color: #4c4b4b;
+}
+.side-a p {
+  text-align: left;
+}
+.side-a {
+  border-right: 1px solid gray;
+  min-width: 46%;
+  margin: 0 2em;
+  padding-right: 1em;
+}
+.side-b p {
+  text-align: left;
+  color: #4c4b4b;
+}
+.side-b {
+  min-width: 45%;
+  margin: 0 1em;
+
+
+}
+.center {
+  display:flex;
+}
+
+}
